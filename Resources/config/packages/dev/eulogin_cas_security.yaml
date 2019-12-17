@@ -6,3 +6,4 @@ security:
         default:
             guard:
                 provider: eulogin
+                entry_point: eulogin.userprovider
