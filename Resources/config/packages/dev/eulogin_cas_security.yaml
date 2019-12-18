@@ -5,5 +5,7 @@ security:
     firewalls:
         default:
             guard:
+                authenticators:
+                    - cas.guardauthenticator
                 provider: eulogin
                 entry_point: eulogin.userprovider
