@@ -11,7 +11,6 @@ use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 use function get_class;
-use Symfony\Component\Security\Http\EntryPoint\AuthenticationEntryPointInterface;
 
 /**
  * Class EuloginUserProvider.
